@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homebody</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="inner first">
+            <h1>Show your the my House!</h1>
+            <img id="clip-path" src="./images/main_img1.png" alt="show your the my house">
+        </div> <!-- main inner -->
+    </div> <!-- main section -->
+    <div class="wrap">
+        <div class="inner second">
+            <h3>Homebody's Record</h3>
+            <div id="career">
+                <img src="./images/section1_img1.png" alt="homebody's record">
+                <button type="button" id="record"><span>Record</span></button>
+                <button type="button"  id="skill"><span>Skill</span></button>
+                <ul id="slideup"> <!-- hidden -->
+                    <li> <!-- record -->
+                        <h3>학력 및 이력사항</h3>
+                        <h4 class="fon">학력</h4>
+                        <ul>
+                            <li>시각디자인과 전공</li>
+                        </ul>
+                        <h4 id="space" class="fon">이력사항</h4>
+                        <ul>
+                            <li>09-11 쇼핑몰 - 웹디자인 (상세페이지 제작)</li>
+                            <li>11~20 제조업 - 편집디자인 (일러스트디자인)</li>
+                            <li>20-23 학술연구 - 편집디자인, 시각디자인</li>
+                        </ul>
+                    </li>
+                    <li> <!-- skill -->
+                        <h3>스킬 및 자격증</h3>
+                        <h4 class="fon">스킬</h4>
+                        <div id="icon">
+                            <ul>
+                                <li>
+                                    <img src="./images/icon1.png" alt="포토샵icon">
+                                    <meter min="0" max="100" low="30" high="80" optimum="85" value="85"></meter>
+                                </li>
+                                <li>
+                                    <img src="./images/icon2.png" alt="일러스트icon">
+                                    <meter min="0" max="100" low="30" high="80" optimum="85" value="90"></meter>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img src="./images/icon3.png" alt="인디자인icon">
+                                    <meter min="0" max="100" low="30" high="80" optimum="85" value="70"></meter>
+                                </li>
+                                <li>
+                                    <img src="./images/icon4.png" alt="스케치업icon">
+                                    <meter min="0" max="100" low="30" high="80" optimum="85" value="75"></meter>
+                                </li>
+                            </ul>
+                        </div> <!-- icon -->
+                        <h4 class="fon">자격증</h4>
+                        <ul>
+                            <li>컴퓨터그래픽스 운용 기능사</li>
+                            <li>웹디자인 기능사</li>
+                        </ul>
+                    </li>
+                </ul> <!-- slideup -->
+            </div> <!-- career -->
+        </div> <!-- record inner -->
+    </div> <!-- record section -->
+    <div class="wrap">
+        <div class="inner third">
+            <h2>Homebody’s Portfolio</h2>
+            <div id="content">
+                <div id="trigger">
+                    <img src="./images/section2_img1.png" alt="portfolio">
+                    <button type="button" id="portfolio"><span>Portfolio</span></button>
+                </div> <!-- trigger -->
+                <ul id="slidedown">
+                    <li>
+                        <a href="#"><span>Web Design</span>
+                            <img src="./images/section2_img2.png" alt="webdesign">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span>Artwork</span>
+                            <img src="./images/section2_img3.png" alt="artwork">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span>3D</span>
+                            <img src="./images/section2_img4.png" alt="3d">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span>Brand Design</span>
+                            <img src="./images/section2_img5.png" alt="branddesign">
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- content -->
+        </div> <!-- portfolio inner -->
+    </div> <!-- portfolio section -->
+    <div id="overlay">
+        <div class="inner fourth">
+            <div id="con">
+                <ul>
+                    <li>
+                        <div class="info">
+                            <h2>웹디자인-1</h2>
+                            <p>컨버스 about 리뉴얼기반 <br>
+                                상품을 중점을 두고 디자인 <br>
+                                SVG 애니메이션을 포인트로
+                                사용하여 제작</p>
+                            <a href="./converse/index.html" target="_blank" id="site">사이트 이동</a>
+                        </div> <!-- info-->
+                        <div class="detail">
+                            <img src="./images/overlay_img1.png" alt="웹디자인페이지-1">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <h2>웹디자인-2</h2>
+                            <p>Peal Abyss 게임회사 소개페이지 디자인<br>
+                                   애니메이션 효과를 중점적으로 제작</p>
+                                   <a href="./pearl_abyss/index.html" target="_blank" id="site">사이트 이동</a>
+                        </div> <!-- info-->
+                        <div class="detail">
+                            <img src="./images/overlay_img0.png" alt="웹디자인페이지-2">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <h2>일러스트 삽화</h2>
+                            <p>일러스트 삽화 작업물</p>
+                        </div> <!-- info-->
+                        <div class="detail">
+                            <img src="./images/overlay_img2.png" alt="일러스트 삽화">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <h2>빛고을 메타버스 소통 플랫폼</h2>
+                            <p>메타버스 (제페토) 공간구축 <br>
+                                광주광역시청사 3D 제작</p>
+                        </div> <!-- info-->
+                        <div class="detail">
+                            <img src="./images/overlay_img3-2.png" alt="3d 모델링" class="simg">
+                            <img src="./images/overlay_img3-1.png" alt="메타버스 모델링" class="simg2">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <h2>구례 문척면 브랜드 디자인</h2>
+                            <p>구례 문척면 브랜드 디자인 제작 <br>
+                                오산을 모티브로한 로고 디자인 <br>
+                                브랜드 매뉴얼북 제작</p>
+                            <h2>영암 달마지 브랜드 캐릭터 디자인</h2>
+                            <p>영암 브랜드디자인 캐릭터제작 <br>
+                                영암 월출산 큰바위 얼굴 모티브 <br>
+                                팝아트 분위기로 연출 <br>
+                                브랜드 매뉴얼북 제작</p>
+                        </div> <!-- info-->
+                        <div class="detail">
+                            <img src="./images/overlay_img4-1.png" alt="영암브랜드디자인" class="simg">
+                            <img src="./images/overlay_img4-2.png" alt="구례브랜드디자인" class="simg2">
+                        </div>
+                    </li>
+                </ul>
+            </div> <!-- con -->
+            <button type="button" id="prev"><span>Previous Image</span></button>
+            <button type="button" id="next"><span>Next Image</span></button>
+            <button type="button" id="close"><span>Close</span></button>
+        </div> <!-- overlay inner-->
+    </div> <!-- overlay section-->
+    <div class="wrap">
+        <div class="inner fifth">
+            <div id="scroll">
+                <h2>Contact me</h2>
+            </div>
+            <div id="rap">
+                <div id="name">
+                    <img src="./images/contect_img1.png" alt="photo">
+                    <p><span>About</span><br>
+                        #재능있고 #감각적인 #노력하는 #집돌이</p>
+                </div> <!-- name -->
+                <div id="nep">
+                    <ul>
+                        <li><span>N.</span>조민주</li>
+                        <li><span>E.</span>nskymj@naver.com</li>
+                        <li><span>P.</span>010 8590 2637</li>
+                    </ul>
+                </div><!-- nep -->
+            </div>
+        </div> <!-- contact inner -->
+    </div> <!-- contact section -->
+</body>
+
+</html>
