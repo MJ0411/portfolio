@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #e8e4db;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1540px;
 }
 a {
     text-decoration: none;
@@ -534,7 +537,7 @@ section:nth-child(3) > .inner {
 }
 .layer {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -544,6 +547,8 @@ section:nth-child(3) > .inner {
 .layer > img {
     display: block;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 #game > div > div:nth-child(2) {
     width: 100vw;
@@ -587,6 +592,7 @@ section:nth-child(3) > .inner {
 #game_container {
     width: 100vw;
     height: 844px;
+    min-width: 1540px;
     position: relative;
     overflow: hidden;
     opacity: 0;
