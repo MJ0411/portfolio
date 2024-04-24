@@ -163,8 +163,7 @@ a {
 
 /* -----------introduction----------------------- */
 #introduction {
-    background: url(../images/sec2_bg.png) no-repeat;
-    background-position: center;
+    background: url(../images/sec2_bg.png) no-repeat top/cover;
     width: 100vw;
     height: 2322px;
     font-size: 0;
@@ -395,8 +394,7 @@ a {
 
 /* -----------section 3 ----------------------- */
 section:nth-child(3) {
-    background: url(../images/sec3_bg.png) no-repeat;
-    background-position: center;
+    background: url(../images/sec3_bg.png) no-repeat center/cover;
     width: 100vw;
     height: 1054px;
     font-size: 0;
@@ -408,8 +406,7 @@ section:nth-child(3) > .inner {
 #sec3_bn {
     max-width: 1310px;
     height: 350px;
-    background: url(../images/sec3_bn1_bg.png) no-repeat;
-    background-position: center;
+    background: url(../images/sec3_bn1_bg.png) no-repeat center/cover;
     margin: 0 auto;
     position: relative;
 }
@@ -493,6 +490,7 @@ section:nth-child(3) > .inner {
 }
 /* -----------section 4 game----------------------- */
 #game {
+    width: 100vw;
     font-size: 0;
     background: #161616;
 }
@@ -504,10 +502,8 @@ section:nth-child(3) > .inner {
 }
 #layer_bg {
     width: 100vw;
-    height: 100vh;
-    background: url(../images/sec4_bg-b.png) no-repeat;
-    background-position: center bottom;
-    background-size: cover;
+    height: 1044px;
+    background: url(../images/sec4_bg-b.png) no-repeat top/cover;
     position: relative;
     z-index: 13;
 }
@@ -660,6 +656,7 @@ section:nth-child(3) > .inner {
 }
 .game_bg > img {
     display: block;
+    margin: 0 auto;
 }
  .game_cha {
     width: 100%;
